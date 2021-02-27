@@ -64,16 +64,16 @@ class _MainHomeScreenState extends State<MainHomeScreen> {
                 title: 'ديوني',
                 icon: Icons.money_off_rounded,
               ),
-              GridItems(
-                action: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => AllMoney()),
-                  );
-                },
-                title: 'ميزانيتي',
-                icon: Icons.card_giftcard,
-              ),
+              // GridItems(
+              //   action: () {
+              //     Navigator.push(
+              //       context,
+              //       MaterialPageRoute(builder: (context) => AllMoney()),
+              //     );
+              //   },
+              //   title: 'ميزانيتي',
+              //   icon: Icons.card_giftcard,
+              // ),
             ],
           ),
           // Container(
